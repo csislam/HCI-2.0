@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-<title>UT - Task 4 | GenAI</title>
+<title>CW - Task 4 | HCI 2.0</title>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
@@ -11,37 +11,28 @@
 
 <div class="w3-content" style="max-width:1000px;margin-top:46px">
     <div class="w3-container w3-content w3-center w3-padding-64" style="max-width:800px">
-        <div class="w3-row">
-            <div class="w3-padding-16 w3-half">
-                <div class="w3-padding-16">
-                    <img class="w3-image" id="img-panel" src="../img/M01.png" width="66%">
-                </div>
-            </div>
-            <div class="w3-padding-16 w3-half">
-                <div class="w3-padding-16">
-                    <h2>Task 4</h2>
-                </div>
-                <div class="w3-card w3-round-large w3-padding-large w3-yellow">
-                    <h3>Visualizing the digital detox progress</h3>
-                    <p><b>User goal is</b> checking how far you have progressed on today’s goal:</p>
-                    <ol class="w3-justify">
-                        <li>Observe completing the goal</li>
-                        <li>Redeem the “sword” reward</li>
-                    </ol>
-                </div>
+        <div class="w3-padding-32">
+            <img class="w3-image" id="img-panel" src="../img/M01.png">
+        </div>
 
-                <div class="w3-padding-32">
-                    <h2>Panels navigator</h2>
-                    <div class="w3-padding-16"><p><em>Currently displaying panel <b id="current-panel">M01</b></em></p>
-                    </div>
-                    <button class="w3-btn w3-ripple w3-card w3-round-xlarge" onclick="changeImage('M01')">M01</button>
-                    <button class="w3-btn w3-ripple w3-card w3-round-xlarge" onclick="changeImage('P01')">P01</button>
-                    <button class="w3-btn w3-ripple w3-card w3-round-xlarge" onclick="changeImage('P02')">P02</button>
-                    <button class="w3-btn w3-ripple w3-card w3-round-xlarge" onclick="changeImage('P03')">P03</button>
-                    <button class="w3-btn w3-ripple w3-card w3-round-xlarge" onclick="changeImage('P04')">P04</button>
-                    <button class="w3-btn w3-ripple w3-card w3-round-xlarge" onclick="changeImage('P05')">P05</button>
-                </div>
-            </div>
+        <div class="w3-padding-32">
+            <h2>Panels navigator</h2>
+            <div class="w3-padding-16"><p><em>Currently displaying panel <b id="current-panel">M01</b></em></p></div>
+            <button class="w3-btn w3-ripple w3-card w3-round-xlarge" onclick="changeImage('M01')">M01</button>
+            <button class="w3-btn w3-ripple w3-card w3-round-xlarge" onclick="changeImage('P01')">P01</button>
+            <button class="w3-btn w3-ripple w3-card w3-round-xlarge" onclick="changeImage('P02')">P02</button>
+            <button class="w3-btn w3-ripple w3-card w3-round-xlarge" onclick="changeImage('P03')">P03</button>
+            <button class="w3-btn w3-ripple w3-card w3-round-xlarge" onclick="changeImage('P04')">P04</button>
+            <button class="w3-btn w3-ripple w3-card w3-round-xlarge" onclick="changeImage('P05')">P05</button>
+        </div>
+
+        <hr>
+
+        <div class="w3-padding-16">
+            <h2>Task 4</h2>
+            <p><em>Visualizing the digital detox progress</em></p>
+            <p class="w3-justify"><b>User goal:</b> Check how far you have progressed on today’s goal, observe completing the goal and
+                redeem the “sword” reward.</p>
         </div>
 
         <hr>
@@ -55,9 +46,9 @@
                 </a>
             </div>
             <div class="w3-quarter">
-                <a href="../consent.html">
+                <a href="../ground-rules.html">
                     <button class="w3-btn w3-round-large w3-card w3-hover-red">
-                        Review consent <i class="fa fa-check-circle"></i>
+                        Ground rules <i class="fa fa-check-circle"></i>
                     </button>
                 </a>
             </div>
@@ -79,13 +70,14 @@
     </div>
 </div>
 
+
 <!-- Footer -->
 <footer class="w3-container w3-padding-64 w3-center w3-opacity w3-light-grey w3-xlarge">
     <h4 class="w3-wide">HCI 2.0</h4>
     <p class="w3-small w3-opacity"><i>An online tool for conducting Remote Cognitive Walkthroughs</i></p>
     <div class="w3-padding-16">
         <p class="w3-medium">This is an open-source project available on
-            <a href="https://github.com/drmnislam/HCI2.0-GenAI" target="_blank"><b>Github</b></a>
+            <a href="https://github.com/matteo-rizzo/remote-cognitive-walkthrough" target="_blank"><b>Github</b></a>
         </p>
         <p class="w3-medium">Created by the "HCI 2.0" team for BLG551E: "HCI" @ İTÜ</p>
     </div>
